@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oefening 8</title>
+</head>
+<body>
+    <script>
+        let time = parseFloat(prompt('Vul een aantal seconden in'));
+        let hour = time / 3600;
+        hour = Math.floor(hour);
+        let remainingSeconds = time % 3600;
+        let minutes = remainingSeconds / 60;
+        minutes = Math.floor(minutes);
+        let seconds = remainingSeconds - 60;
+        document.write(`${time} is ${hour} uur, ${minutes} minu(u)t(en) en ${seconds} seconden.`);
+    </script>
+</body>
+</html>

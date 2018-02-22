@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oefening 1</title>
+</head>
+<body>
+    <script>
+        /********************************************************************* 
+        * @author     Thomas Audenaert
+        * @created    15/02/2018
+        * @modified   15/02/2018
+        * @copyright  Copyright © 2017-2018 Artevelde University College Ghent
+        * @function   Prompt asking the user to put in a number, that then will be displayed on the screen.
+        *********************************************************************/
+        // The user will get a prompt asking them to enter a number
+        let number = prompt('Vul een getal in')
+        console.log('dit is wat tekst');
+        console.log(number);
+        // A variable to present the number that was entered
+        let text = 'Het getal dat u invoerde was: ' + number + '<br>';
+        // Tell the user which number they entered
+        document.write(text); 
+        let digits = number.length;
+        let amountdigits = `Het getal is ${digits} karakters lang.`
+        document.write(amountdigits);
+        
+    </script>
+</body>
+</html>
