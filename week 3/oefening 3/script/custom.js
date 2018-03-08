@@ -60,18 +60,18 @@ setInterval(function(){
     } 
 }, 1000); //elke seconde
 
-function drawMountain(lengtOfMountain) {
+function drawMountain(lengthOfMountain) {
     let i = 1; //initiele toplengte
     document.write('/'); //helling
-    while(i <= lengtOfMountain) {
+    while(i <= lengthOfMountain) {
         document.write("'");
         i++;
     }
     document.write("\\") //afdaling
 }
-function drawFlatArea(lengtFlat) {
+function drawFlatArea(lengthFlat) {
     let i = 1
-    while(i <= lengtFlat) {
+    while(i <= lengthFlat) {
         document.write("_");
         i++;
     }
