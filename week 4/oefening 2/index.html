@@ -30,7 +30,7 @@
       <h4>Stenen per muur</h4>
       <ul>
         <li>Muur 1 heeft
-          <span class="label" id="wall-1-amountstones">0 stenen</span>
+          <span onclick="wallSize(1)" class="label" id="wall-1-amountstones">0 stenen</span>
         </li>
         <li>Muur 2 heeft
           <span class="label" id="wall-2-amountstones">0 stenen</span>
@@ -117,7 +117,7 @@
               <i class="fa fa-minus"></i>
             </button>
           </div>
-          <div  onclick="addBrickToWall('blue', 4)" class="col s3">
+          <div onclick="addBrickToWall('blue', 4)" class="col s3">
             <button class="add-brick btn">
               <i class="fa fa-plus"></i>
             </button>

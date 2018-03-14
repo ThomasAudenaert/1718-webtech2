@@ -45,3 +45,12 @@ function removeBrickFromWall(color, wallNumber) {
         wall.removeChild(bricks[0]);
     }
 }
+function wallSize(wallNumber){
+    let lblWall1 = document.getElementById('wall-' + wallNumber + '-amountstones');
+    let i = bricks.length;
+    if((bricks.length > 0) &&(bricks.length <= 1)){
+        lblWall1.textContent = '1 steen';
+    } else {
+        lblWall1.textContent = i + ' stenen';
+    }
+}
