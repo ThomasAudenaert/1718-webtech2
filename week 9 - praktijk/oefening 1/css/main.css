@@ -1,0 +1,27 @@
+input:valid{
+    background-color: rgb(26, 102, 105);
+    border: hidden;
+}
+input:invalid{
+    border: hidden;
+    background-color: rgb(175, 17, 9);
+}
+body{
+    background-color: rgb(5, 9, 10)
+}
+input::placeholder{
+    color: white;
+}
+input[type=text]{
+    color: white;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}

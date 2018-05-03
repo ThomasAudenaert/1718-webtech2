@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Week 9 - Oefening 2</title>
+</head>
+<body>
+    <form>
+    <p>Welke kleur T-shirt had de mol vandaag aan?</p>
+    <input type="text" pattern="[Rr]ood|[Gg]roen|[Gg]rijs|[Zz]wart" required>
+    <p>Sliep de mol vannacht in de auto?</p>
+    <ul>
+    <li><input type="radio" value="yes" required> <label>Ja</label></li>
+    <li><input type="radio" value="no" required> <label>Nee</label></li>
+    </ul>
+    <p>Hoe oud schat je de mol?</p>
+    <input type="text" min="21" max="62" required>
+    <p>Als de mol een e-mailadres had met volgend patroon: 'voornaam@demol.be'; wat is dan zijn/haar e-mailadres?</p>
+    <input type="email"  pattern="[\w.%+-]+@demol.be" required>
+    <p>Argumenteer je antwoord.</p>
+    <textarea name="answer" minlength="100" required></textarea>
+    <button>Verzenden</button>
+</form>
+    <script src="./scripts/custom.js"></script>
+</body>
+</html>
